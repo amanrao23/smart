@@ -1,0 +1,17 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+Demo App
+{% endblock %}
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('.static', filename='starter-template.css')}}">
+{% endblock %}
+
+{% block content %}
+        {{ disaster.c_name }}
+        {{ disaster.c_username }}
+        {% for i in tweet %}
+            {{ i.content }}
+        {% endfor %}
+{% endblock content %}
