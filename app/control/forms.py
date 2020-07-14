@@ -16,3 +16,8 @@ class Loginctrlform(FlaskForm):
     remember = BooleanField('Remember Me')
     submit = SubmitField('Login')
 
+class Parametersform(FlaskForm):
+    searchQuery = StringField('Keyword') # this is what we're searching for
+    maxTweets = IntegerField('maz tweets')  # Some arbitrary large number
+    tweetsPerQry = IntegerField('Tweets Per Query')
+    submit=SubmitField('Start Fetching')

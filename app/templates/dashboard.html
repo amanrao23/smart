@@ -1,3 +1,4 @@
+{% import "bootstrap/wtf.html" as wtf %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -36,43 +37,30 @@
 	    </div>
 	  </nav>
     <!-- END nav -->
-    <div class="row">
+        <div class="row">
     <!-- Start left alinged updation box -->
 
-      <div class="col-4">
+      <div class="col-5">
         <h2>Tweet Fetching Filters</h2>
         <div class="main-block">
-          <form action="">
-            <h2>Keywords</h2>
-            <h5>Note! write the keywords seperated with a comma</h5>
-            <input type="text-field">
-            <br>
-            <input type="radio">
-            <br>  
+          <form class="form-signin" method="POST" action="/dashboard">
             <div class="info">
               <div class="info-item">
-                <label class="icon" for="name">Left-X</label>
-                <input type="text" name="name" id="name" placeholder="Name" required/>
+                  {{ wtf.form_field(form.searchQuery) }}
               </div>
               <div  class="info-item">
-                <label class="icon" for="age">left-Y</label>
-                <input type="text" name="age" id="age" placeholder="Age" required/>
+                {{ wtf.form_field(form.maxTweets) }}
               </div>
               <div  class="info-item">
-                <label class="icon" for="email">Right-X</label>
-                <input type="text" name="email" id="email" placeholder="Email" required/>
+                {{ wtf.form_field(form.tweetsPerQry) }}
               </div>
               <div  class="info-item">
-                <label class="icon" for="phone">Right-Y</label>
-                <input type="text" name="phone" id="phone" placeholder="Phone" required/>
+                {{ wtf.form_field(form.submit) }}
               </div>
-            </div>
-            <br><br>
-            <button type="submit" href="/">Update</button>
           </form>
         </div>
-        
       </div>
+
 
     <!-- End left alinged updation box -->
 

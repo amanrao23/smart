@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="747895e1-fe98-44f8-910b-4b72b206cbae" name="Default Changelist" comment="added disaster home page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/control/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/control/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/control/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/control/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/app/site.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +132,7 @@
       <workItem from="1590563615676" duration="8451000" />
       <workItem from="1590597708940" duration="3126000" />
       <workItem from="1594656684821" duration="6999000" />
-      <workItem from="1594664226516" duration="8918000" />
+      <workItem from="1594664226516" duration="12829000" />
     </task>
     <task id="LOCAL-00001" summary="added disaster home page">
       <created>1588189548482</created>
