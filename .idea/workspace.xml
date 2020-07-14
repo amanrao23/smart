@@ -3,6 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="747895e1-fe98-44f8-910b-4b72b206cbae" name="Default Changelist" comment="added disaster home page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/app/site.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/signin.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/signin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/starter-template.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/starter-template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard1.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/disasterhome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/loginngo.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/loginngo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ngopage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/ngopage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registercntlcntr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registerngo.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/registerngo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +43,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
-        <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -38,7 +54,9 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Xkzir114TnBpPPsTqbjtZidJRq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -48,9 +66,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aman\PycharmProjects\smart\app" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.register.html">
     <configuration name="layout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/smart/templates/layout.html" useBuiltInWebServerPort="true">
@@ -59,9 +82,9 @@
     <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/smart/templates/register.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask (app/app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="smart" />
-      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="target" value="$PROJECT_DIR$/app/app.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,7 +99,7 @@
     </configuration>
     <configuration name="smart" type="Python.FlaskServer">
       <module name="smart" />
-      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="target" value="$PROJECT_DIR$/app/app.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,7 +116,7 @@
       <list>
         <item itemvalue="JavaScript Debug.register.html" />
         <item itemvalue="JavaScript Debug.layout.html" />
-        <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="Flask server.Flask (app/app.py)" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +137,12 @@
       <workItem from="1584017022660" duration="1312000" />
       <workItem from="1585506054997" duration="65435000" />
       <workItem from="1587576667816" duration="640000" />
-      <workItem from="1588173578572" duration="9081000" />
+      <workItem from="1588173578572" duration="10198000" />
+      <workItem from="1589316697302" duration="28000" />
+      <workItem from="1590563615676" duration="8451000" />
+      <workItem from="1590597708940" duration="3126000" />
+      <workItem from="1594656684821" duration="6999000" />
+      <workItem from="1594664226516" duration="2809000" />
     </task>
     <task id="LOCAL-00001" summary="added disaster home page">
       <created>1588189548482</created>
@@ -134,10 +162,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added disaster home page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585916988121">
+    <state x="0" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590563935183">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1585916988121" />
+    <state x="0" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1590563935183" />
     <state x="393" y="27" key="CommitChangelistDialog2" timestamp="1588189650689">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -146,30 +174,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="191" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1586287670026" />
-    <state width="1493" height="225" key="GridCell.Tab.0.bottom" timestamp="1585581038279">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585581038279" />
-    <state width="1493" height="225" key="GridCell.Tab.0.center" timestamp="1585581038279">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585581038279" />
-    <state width="1493" height="225" key="GridCell.Tab.0.left" timestamp="1585581038279">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585581038279" />
-    <state width="1493" height="225" key="GridCell.Tab.0.right" timestamp="1585581038279">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="225" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585581038279" />
     <state x="478" y="90" key="SettingsEditor" timestamp="1586251546414">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="478" y="90" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1586251546414" />
-    <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1588173703446">
+    <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1594664229847">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1588173703446" />
+    <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1594664229847" />
     <state x="578" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588189638984">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
